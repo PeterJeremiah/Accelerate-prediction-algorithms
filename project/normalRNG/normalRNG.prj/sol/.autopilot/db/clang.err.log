@@ -1,0 +1,156 @@
+In file included from dut.cpp:16:
+In file included from D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:54:
+In file included from D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:28:
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:72:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = r core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:83:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = r core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:94:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = r core = FMul_fulldsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:105:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = r core = FExp_meddsp
+        ^
+In file included from dut.cpp:16:
+In file included from D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:54:
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:106:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = xsq core = FMul_fulldsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:123:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = tmp_x_num_mul_0 core = FMul_fulldsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:134:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = local_x_num_add core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:141:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = local_x_num_mul core = FMul_fulldsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:148:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = local_x_den_add core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:155:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = local_x_den_mul core = FMul_fulldsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:183:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = xnum core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:189:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = xden core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:203:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = temp core = FMul_fulldsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:228:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = result core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:360:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = fa2 core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:363:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = fa4 core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:366:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = fa6 core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:370:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = fb2 core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:373:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = fb4 core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:379:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = fb6 core = FAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:448:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = tmp core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:452:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t1 core = DLog_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:454:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t2 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:471:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = z core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:473:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = r core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:489:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t4 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:491:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t5 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:493:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t6 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:495:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t7 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:497:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t8 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:499:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t9 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:501:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t10 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:503:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t11 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:505:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t12 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:507:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = f1_1 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:510:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = f1 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:516:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t13 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:518:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t14 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:520:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t15 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:522:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t16 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:524:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t17 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:526:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = f2 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:529:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t18 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:531:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = f2 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:534:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = t19 core = DMul_meddsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:536:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS resource variable = f2 core = DAddSub_nodsp
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:956:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable = mt core = RAM_T2P_BRAM
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:957:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable = mt_1 core = RAM_T2P_BRAM
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:967:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable = mt core = RAM_T2P_BRAM
+        ^
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:968:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable = mt_1 core = RAM_T2P_BRAM
+        ^
+50 warnings generated.

@@ -1,0 +1,1043 @@
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:1330:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:1330:7: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:2304:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:2304:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:2318:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:2318:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:2332:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:2332:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:3949:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:3949:7: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12691:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12692:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12693:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12694:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12695:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12725:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12726:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12727:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12728:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12729:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12730:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12731:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12732:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12733:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12734:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12784:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                      ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12785:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                      ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12786:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                      ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12813:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12814:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12815:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12816:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12817:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12818:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12854:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:12855:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13129:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_61_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13129:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13175:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_117_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13175:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13338:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_289_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13338:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13490:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_449_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13490:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13670:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_629_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13670:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13674:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_633_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13674:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13784:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_743_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13784:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13874:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_840_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13874:7: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13893:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_859_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:13893:7: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14183:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1173_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14183:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14266:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1256_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14266:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14672:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+            for (int j = 3; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_68_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14672:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14678:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+                for (int j = 3; j >= I_+1; j--){
+                ^~~
+                VITIS_LOOP_74_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14678:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14682:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_78_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14682:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14730:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+            for (int j = 9; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_145_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14730:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14736:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+                for (int j = 9; j >= I_+4; j--){
+                ^~~
+                VITIS_LOOP_151_5: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14736:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14740:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_155_6: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14740:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14755:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+        for (int j = 14; j < 22; j++){
+        ^~~
+        VITIS_LOOP_170_7: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14755:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14763:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++){
+                ^~~
+                VITIS_LOOP_178_8: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14763:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14828:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+            for (int j = 21; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_243_9: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14828:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14834:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+                for (int j = 21; j >= I_+10; j--) {
+                ^~~
+                VITIS_LOOP_249_10: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14834:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14838:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_253_11: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14838:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14853:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+        for (int j = 27; j < 46; j++){
+        ^~~
+        VITIS_LOOP_268_12: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14853:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14861:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_276_13: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:14861:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15090:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+            for (int j = 45; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_505_14: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15090:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15096:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+                for (int j = 45; j >= I_+22; j--){
+                ^~~
+                VITIS_LOOP_511_15: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15096:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15100:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_515_16: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15100:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15110:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+        for (int j = 32-F_; j < 32+I_; j++){
+        ^~~
+        VITIS_LOOP_525_17: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15110:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15114:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+        for (int j = 32+I_; j <= 64; j++){
+        ^~~
+        VITIS_LOOP_529_18: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15114:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15124:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+        for (int j = 37; j < 64; j++) {
+        ^~~
+        VITIS_LOOP_539_19: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15124:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15132:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++){
+                ^~~
+                VITIS_LOOP_547_20: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15132:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15493:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+            for (int j = 63; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_908_21: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15493:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15499:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+                for (int j = 63; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_914_22: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15499:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15503:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_918_23: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15503:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15619:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+            for (int j = 4; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_1034_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15619:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15625:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+                for (int j = 4; j >= I_+1; j--) {
+                ^~~
+                VITIS_LOOP_1040_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15625:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15629:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1044_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15629:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15716:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+            for (int j = 10; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_1131_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15716:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15722:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+                for (int j = 10; j >= I_+4; j--) {
+                ^~~
+                VITIS_LOOP_1137_5: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15722:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15726:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1141_6: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15726:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15745:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+        for (int j = wf+3; j < w-1; j++) {
+        ^~~
+        VITIS_LOOP_1160_7: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15745:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15752:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++) {
+                ^~~
+                VITIS_LOOP_1167_8: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15752:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15868:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+            for (int j = 22; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_1283_9: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15868:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15874:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+                for (int j = 22; j >= I_+10; j--){
+                ^~~
+                VITIS_LOOP_1289_10: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15874:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15878:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1293_11: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15878:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15898:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+        for (int j = wf+4; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1313_12: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15898:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15905:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_1320_13: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:15905:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16167:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+            for (int j = 46; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_1582_14: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16167:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16173:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+                for (int j = 46; j >= I_+22; j--) {
+                ^~~
+                VITIS_LOOP_1588_15: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16173:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16177:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1592_16: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16177:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16201:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+        for (int j = wf+5; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1616_17: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16201:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16208:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++) {
+                ^~~
+                VITIS_LOOP_1623_18: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16208:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16638:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+            for (int j = 64; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_2053_19: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16638:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16644:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+                for (int j = 64; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_2059_20: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16644:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16648:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_2063_21: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16648:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16778:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+            for(int j=3; j>=I+1; j--) {
+            ^~~
+            VITIS_LOOP_2193_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16778:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16785:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+                for(int j=3; j>=I+1; j--) {
+                ^~~
+                VITIS_LOOP_2200_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16785:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16789:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+                for(int j=I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2204_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16789:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16836:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+            for(int j=7; j>=3+I; j--) {
+            ^~~
+            VITIS_LOOP_2251_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16836:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16843:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+                for(int j=7; j>=3+I; j--) {
+                ^~~
+                VITIS_LOOP_2258_5: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16843:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16847:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+                for(int j=I+2; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2262_6: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16847:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16865:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+        for(int j=11; j<16; j++) {
+        ^~~
+        VITIS_LOOP_2280_7: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16865:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16920:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+            for(int j=15; j>=7+I; j--) {
+            ^~~
+            VITIS_LOOP_2335_8: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16920:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16927:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+                for(int j=15; j>=7+I; j--) {
+                ^~~
+                VITIS_LOOP_2342_9: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16927:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16931:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+                for(int j=6+I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2346_10: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16931:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16949:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+        for(int j=20; j<32; j++) {
+        ^~~
+        VITIS_LOOP_2364_11: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:16949:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17038:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+            for(int j=31; j>=I+15; j--) {
+            ^~~
+            VITIS_LOOP_2453_12: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17038:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17045:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+                for(int j=31; j>=I+15; j--) {
+                ^~~
+                VITIS_LOOP_2460_13: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17045:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17049:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+                for(int j=I+14; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2464_14: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17049:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17059:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+        for(int j=32-F; j<32+I; j++) {
+        ^~~
+        VITIS_LOOP_2474_15: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17059:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17063:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+        for(int j=32+I; j<=64; j++) {
+        ^~~
+        VITIS_LOOP_2478_16: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17063:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17074:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+        for(int j=37; j<64; j++) {
+        ^~~
+        VITIS_LOOP_2489_17: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17074:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17082:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+                for(int j=0; j<64; j++) {
+                ^~~
+                VITIS_LOOP_2497_18: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17082:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17407:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+            for(int j=63; j>=I+31; j--) {
+            ^~~
+            VITIS_LOOP_2822_19: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17407:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17414:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+                for(int j=63; j>=I+31; j--) {
+                ^~~
+                VITIS_LOOP_2829_20: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17414:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17418:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+                for(int j=I+30; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2833_21: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17418:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17506:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+   for(int j = 5; j>=I_+2; j--) {
+   ^~~
+   VITIS_LOOP_2921_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17506:4: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17513:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+    for(int j = 5; j>=I_+2; j--) {
+    ^~~
+    VITIS_LOOP_2928_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17513:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17517:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+    for(int j = I_+1; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2932_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17517:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17532:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+  for(int j = 11; j >=7; j--) {
+  ^~~
+  VITIS_LOOP_2947_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17532:3: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17564:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+   for(int j = 11; j >= I_+5; j--) {
+   ^~~
+   VITIS_LOOP_2979_5: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17564:4: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17571:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+    for(int j = 11; j>= I_+5; j--) {
+    ^~~
+    VITIS_LOOP_2986_6: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17571:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17575:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+    for(int j = I_+4; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2990_7: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17575:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17590:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+  for(int j = 25; j>=15; j--) {
+  ^~~
+  VITIS_LOOP_3005_8: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17590:3: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17640:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+   for(int j = 25; j>= I_+12; j--) {
+   ^~~
+   VITIS_LOOP_3055_9: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17640:4: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17647:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+    for(int j = 25; j>=I_+12; j--) {
+    ^~~
+    VITIS_LOOP_3062_10: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17647:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17651:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+    for(int j = I_+11; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_3066_11: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17651:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17666:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+  for(int j = 51; j >= 29; j--) {
+  ^~~
+  VITIS_LOOP_3081_12: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17666:3: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17803:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+   for(int j = 51; j >= 25 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3218_13: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17803:4: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17810:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+    for(int j = 51; j>=25 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3225_14: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17810:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17814:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+    for(int j = 24 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3229_15: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17814:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17829:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+  for(int j = 63; j >= 36; j--) {
+  ^~~
+  VITIS_LOOP_3244_16: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17829:3: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17989:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+   for(int j = 63; j >= 31 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3404_17: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17989:4: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17996:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+    for(int j = 63; j >= 31 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3411_18: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:17996:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:18000:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+    for(int j = 30 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3415_19: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:18000:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:18715:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_703_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:18715:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:18933:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_921_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:18933:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:19350:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_1345_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:19350:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:19670:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+        for ( int pos = msbr-1; pos >= 0; pos-- ) {
+        ^~~
+        VITIS_LOOP_240_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:19670:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:19698:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+        for ( int pos = -1; pos >= -F_-1; pos-- ) {
+        ^~~
+        VITIS_LOOP_268_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:19698:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20400:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+            for (int j = 0; j < W_-1; j++){
+            ^~~
+            VITIS_LOOP_48_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20400:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20453:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+    for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
+    ^~~
+    VITIS_LOOP_109_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20453:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20467:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+            for (int j = WO_m-1; j >= W_-1; j--) {
+            ^~~
+            VITIS_LOOP_123_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20467:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20497:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+            for (int j = W_-2; j >= 0; j--){
+            ^~~
+            VITIS_LOOP_153_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20497:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20582:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+           for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
+           ^~~
+           VITIS_LOOP_281_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20582:12: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20602:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+               for (int j = WO_e-1; j >= W_-1; j--) {
+               ^~~
+               VITIS_LOOP_301_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20602:16: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20616:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+                   for(int i = 0; i < W_-1; ++i) {
+                   ^~~
+                   VITIS_LOOP_315_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20616:20: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20709:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+           for (int j =WO_d-1; j >= W_-1; j--) {
+           ^~~
+           VITIS_LOOP_433_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20709:12: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20723:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+              for(int i = 0; i < W_-1; ++i) {
+              ^~~
+              VITIS_LOOP_447_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20723:15: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20843:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_33_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20843:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20967:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_183_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:20967:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21022:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_248_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21022:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21541:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_16_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21541:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21552:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_27_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21552:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21563:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_38_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21563:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21574:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_49_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21574:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21585:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_60_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21585:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21596:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_71_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21596:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21607:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_82_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21607:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21618:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_93_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:21618:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:23943:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+           for(int i = 0; i < W_-1; ++i) {
+           ^~~
+           VITIS_LOOP_26_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:23943:12: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24007:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+      for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
+      ^~~
+      VITIS_LOOP_40_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24007:7: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24124:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+        for(int pos = msbr - 1; pos >= 0; pos--) {
+        ^~~
+        VITIS_LOOP_49_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24124:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24149:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+    for(int pos = -1; pos >= -F-1; pos--) {
+    ^~~
+    VITIS_LOOP_81_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24149:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24219:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+       for(int i = 0; i < W - 1; ++i) {
+       ^~~
+       VITIS_LOOP_169_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:24219:8: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26489:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = r core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26500:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = r core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26511:9: error: Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = r core = FMul_fulldsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26522:9: error: Resource with core_name: FExp_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = r core = FExp_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26633:2: warning: Added loop label VITIS_LOOP_78_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < 9; i++) {
+ ^~~
+ VITIS_LOOP_78_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26633:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26641:5: warning: Added loop label VITIS_LOOP_86_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < 8; i++) {
+    ^~~
+    VITIS_LOOP_86_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26641:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26661:9: error: Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = xsq core = FMul_fulldsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26678:9: error: Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = tmp_x_num_mul_0 core = FMul_fulldsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26684:5: warning: Added loop label VITIS_LOOP_129_3:   [xilinx-label-all-loops]
+    for (int i = 1; i <= 7; i++) {
+    ^~~
+    VITIS_LOOP_129_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26684:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26689:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = local_x_num_add core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26696:9: error: Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = local_x_num_mul core = FMul_fulldsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26703:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = local_x_den_add core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26710:9: error: Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = local_x_den_mul core = FMul_fulldsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26738:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = xnum core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26744:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = xden core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26758:9: error: Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = temp core = FMul_fulldsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26783:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = result core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26896:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = fa2 core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26899:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = fa4 core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26902:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = fa6 core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26906:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = fb2 core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26909:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = fb4 core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26915:9: error: Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = fb6 core = FAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26972:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = tmp core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26976:9: error: Resource with core_name: DLog_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t1 core = DLog_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26978:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t2 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26995:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = z core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:26997:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = r core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27013:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t4 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27015:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t5 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27017:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t6 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27019:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t7 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27021:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t8 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27023:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t9 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27025:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t10 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27027:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t11 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27029:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t12 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27031:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = f1_1 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27034:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = f1 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27040:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t13 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27042:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t14 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27044:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t15 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27046:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t16 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27048:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t17 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27050:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = f2 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27053:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t18 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27055:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = f2 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27058:9: error: Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = t19 core = DMul_meddsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27060:9: error: Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS resource variable = f2 core = DAddSub_nodsp
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27196:9: warning: Added loop label VITIS_LOOP_672_1:   [xilinx-label-all-loops]
+        for (ap_uint<A_W> i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_672_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27196:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27466:9: error: Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable = mt core = RAM_T2P_BRAM
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27467:9: error: Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable = mt_1 core = RAM_T2P_BRAM
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27477:9: error: Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable = mt core = RAM_T2P_BRAM
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27478:9: error: Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable = mt_1 core = RAM_T2P_BRAM
+        ^
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27489:9: warning: Added loop label VITIS_LOOP_979_1:   [xilinx-label-all-loops]
+        for (ap_uint<A_W> i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_979_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:27489:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28104:9: warning: Added loop label VITIS_LOOP_1660_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < _VariatePairNum * 2 + 1; i++) {
+        ^~~
+        VITIS_LOOP_1660_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28104:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28105:13: warning: Added loop label VITIS_LOOP_1661_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < _VariatePairNum; j++) {
+            ^~~
+            VITIS_LOOP_1661_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28105:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28132:2: warning: Added loop label VITIS_LOOP_1696_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < _VariatePairNum * 2; i++) {
+ ^~~
+ VITIS_LOOP_1696_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28132:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28157:9: warning: Added loop label VITIS_LOOP_1721_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < _VariatePairNum * 2 + 1; i++) {
+        ^~~
+        VITIS_LOOP_1721_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28157:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28168:9: warning: Added loop label VITIS_LOOP_1732_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < _VariatePairNum * 2; i++) {
+        ^~~
+        VITIS_LOOP_1732_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28168:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28177:9: warning: Added loop label VITIS_LOOP_1741_4:   [xilinx-label-all-loops]
+        for (int i = 0; i < _VariatePairNum * 2; i++) {
+        ^~~
+        VITIS_LOOP_1741_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28177:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28189:9: warning: Added loop label VITIS_LOOP_1753_5:   [xilinx-label-all-loops]
+        for (int i = 0; i < _VariatePairNum * 2; i++) {
+        ^~~
+        VITIS_LOOP_1753_5: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28189:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28234:9: warning: Added loop label VITIS_LOOP_1805_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < _VariatePairNum; i++) {
+        ^~~
+        VITIS_LOOP_1805_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28234:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28235:13: warning: Added loop label VITIS_LOOP_1806_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < _BuffDepth; j++) {
+            ^~~
+            VITIS_LOOP_1806_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:28235:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56653:5: warning: Added loop label VITIS_LOOP_101_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < 3; i++) {
+    ^~~
+    VITIS_LOOP_101_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56653:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56665:5: warning: Added loop label VITIS_LOOP_123_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < Observation; i++) {
+    ^~~
+    VITIS_LOOP_123_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56665:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56733:2: warning: Added loop label VITIS_LOOP_311_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < 3; i++) {
+ ^~~
+ VITIS_LOOP_311_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56733:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56751:13: warning: Added loop label VITIS_LOOP_329_2:   [xilinx-label-all-loops]
+            for (int i = 0; i < 3; i++) {
+            ^~~
+            VITIS_LOOP_329_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56751:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56757:13: warning: Added loop label VITIS_LOOP_335_3:   [xilinx-label-all-loops]
+            for (int i = 0; i < 3; i++) {
+            ^~~
+            VITIS_LOOP_335_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56757:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56779:9: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < 3; i++) {
+        ^~~
+        VITIS_LOOP_420_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56779:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56789:2: warning: Added loop label VITIS_LOOP_430_2:   [xilinx-label-all-loops]
+ for (int i = 0; i < 3; i++) {
+ ^~~
+ VITIS_LOOP_430_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56789:2: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56802:13: warning: Added loop label VITIS_LOOP_450_3:   [xilinx-label-all-loops]
+            for (int i = 0; i < 3; i++) {
+            ^~~
+            VITIS_LOOP_450_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56802:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56807:13: warning: Added loop label VITIS_LOOP_455_4:   [xilinx-label-all-loops]
+            for (int i = 0; i < 3; i++) {
+            ^~~
+            VITIS_LOOP_455_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56807:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56822:9: warning: Added loop label VITIS_LOOP_470_5:   [xilinx-label-all-loops]
+        for (int i = 0; i < 3; i++) {
+        ^~~
+        VITIS_LOOP_470_5: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56822:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56842:5: warning: Added loop label VITIS_LOOP_680_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < 3; i++) {
+    ^~~
+    VITIS_LOOP_680_1: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56842:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56846:5: warning: Added loop label VITIS_LOOP_684_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < NCHAINS; i++) {
+    ^~~
+    VITIS_LOOP_684_2: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56846:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56847:9: warning: Added loop label VITIS_LOOP_685_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < 3; j++) {
+        ^~~
+        VITIS_LOOP_685_3: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56847:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56853:5: warning: Added loop label VITIS_LOOP_691_4:   [xilinx-label-all-loops]
+    for (int i = 0; i < nSamples; i ++){
+    ^~~
+    VITIS_LOOP_691_4: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56853:5: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56855:9: warning: Added loop label VITIS_LOOP_693_5:   [xilinx-label-all-loops]
+        for (int j = 0; j < NCHAINS; j++) {
+        ^~~
+        VITIS_LOOP_693_5: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56855:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56856:13: warning: Added loop label VITIS_LOOP_694_6:   [xilinx-label-all-loops]
+            for (int k = 0; k < 3; k++) {
+            ^~~
+            VITIS_LOOP_694_6: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56856:13: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56861:9: warning: Added loop label VITIS_LOOP_699_7:   [xilinx-label-all-loops]
+        for (int j = 0; j < NCHAINS; j++) {
+        ^~~
+        VITIS_LOOP_699_7: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56861:9: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56863:17: warning: Added loop label VITIS_LOOP_701_8:   [xilinx-label-all-loops]
+                for (int k = 0; k < 3; k++) {
+                ^~~
+                VITIS_LOOP_701_8: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56863:17: note: FIX-IT applied suggested code changes
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56870:13: warning: Added loop label VITIS_LOOP_708_9:   [xilinx-label-all-loops]
+            for (int k = 0; k < 3; k++) {
+            ^~~
+            VITIS_LOOP_708_9: 
+D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp:56870:13: note: FIX-IT applied suggested code changes

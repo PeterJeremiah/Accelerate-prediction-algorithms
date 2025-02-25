@@ -1,0 +1,5 @@
+In file included from dut.cpp:16:
+D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:176:1: warning: '/*' within block comment [-Wcomment]
+/**
+^
+1 warning generated.

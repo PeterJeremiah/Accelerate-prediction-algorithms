@@ -1,0 +1,23 @@
+<dict>
+  <key>main-file</key>
+  <string>dut.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp</string>
+      <key>line</key>
+      <integer>176</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>&apos;/*&apos; within block comment</string>
+      <key>ID</key>
+      <integer>997</integer>
+      <key>WarningOption</key>
+      <string>comment</string>
+    </dict>
+  </array>
+</dict>

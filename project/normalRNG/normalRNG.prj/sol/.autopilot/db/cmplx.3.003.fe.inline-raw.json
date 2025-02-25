@@ -1,0 +1,109 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "4",
+    "file": "dut.cpp",
+    "fileloc": 34,
+    "instructions": 18,
+    "name": "dut",
+    "total_instructions": 6284
+  },
+  "1": {
+    "basicblocks": 28,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 407,
+    "instructions": 286,
+    "loads": {
+      "G": 10,
+      "L": 10
+    },
+    "name": "ChainExchange<double, 10>",
+    "stores": {
+      "G": 10,
+      "L": 20
+    },
+    "total_instructions": 286
+  },
+  "2": {
+    "basicblocks": 37,
+    "calls": "3 3 3",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 90,
+    "instructions": 407,
+    "loads": {
+      "L": 20
+    },
+    "name": "Proposal<double>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 965
+  },
+  "3": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 409,
+    "instructions": 186,
+    "name": "inverseCumulativeNormalAcklam<double>",
+    "total_instructions": 186
+  },
+  "4": {
+    "basicblocks": 38,
+    "calls": "6 7 1",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 671,
+    "instructions": 324,
+    "loads": {
+      "L": 16
+    },
+    "name": "McmcCore<double, 10, 20000, 200>",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 6266
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 121,
+    "instructions": 2212,
+    "loads": {
+      "L": 403
+    },
+    "name": "Likelihood<double, 200>",
+    "total_instructions": 2212
+  },
+  "6": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 602,
+    "instructions": 54,
+    "loads": {
+      "L": 4
+    },
+    "name": "seedInitialization",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 54
+  },
+  "7": {
+    "basicblocks": 18,
+    "calls": "2 5 5",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 286,
+    "instructions": 213,
+    "loads": {
+      "L": 22
+    },
+    "name": "ProbEval<double, 10, 200>",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 5602
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "5",
+    "file": "dut.cpp",
+    "fileloc": 34,
+    "instructions": 10,
+    "name": "dut",
+    "total_instructions": 7811
+  },
+  "1": {
+    "basicblocks": 47,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 407,
+    "instructions": 423,
+    "loads": {
+      "G": 12,
+      "L": 48
+    },
+    "name": "ChainExchange<double, 10>",
+    "stores": {
+      "G": 10,
+      "L": 20
+    },
+    "total_instructions": 423
+  },
+  "2": {
+    "basicblocks": 61,
+    "calls": "3 3 3",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 90,
+    "instructions": 443,
+    "loads": {
+      "L": 24
+    },
+    "name": "Proposal<double>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 1016
+  },
+  "3": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 409,
+    "instructions": 191,
+    "name": "inverseCumulativeNormalAcklam<double>",
+    "total_instructions": 191
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 139,
+    "instructions": 18,
+    "loads": {
+      "L": 6
+    },
+    "name": "Prior<double>",
+    "total_instructions": 18
+  },
+  "5": {
+    "basicblocks": 53,
+    "calls": "7 8 1",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 671,
+    "instructions": 378,
+    "loads": {
+      "L": 21
+    },
+    "name": "McmcCore<double, 10, 20000, 200>",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 7801
+  },
+  "6": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 121,
+    "instructions": 2824,
+    "loads": {
+      "L": 408
+    },
+    "name": "Likelihood<double, 200>",
+    "total_instructions": 2824
+  },
+  "7": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 602,
+    "instructions": 73,
+    "loads": {
+      "L": 4
+    },
+    "name": "seedInitialization",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 73
+  },
+  "8": {
+    "basicblocks": 30,
+    "calls": "2 6 6 4 4",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 286,
+    "instructions": 227,
+    "loads": {
+      "L": 23
+    },
+    "name": "ProbEval<double, 10, 200>",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 6927
+  }
+}

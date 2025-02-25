@@ -1,0 +1,333 @@
+INFO-FLOW: Workspace D:/zu7/normalRNG/normalRNG.prj/sol opened at Sun Aug 25 13:10:51 +0800 2024
+Execute     ap_set_clock -name default -period 3.333 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+Execute     set_part xczu7eg-ffvc1156-2-i 
+Execute       create_platform xczu7eg-ffvc1156-2-i -board  
+DBG:HLSDevice: Trying to load device library: D:/Xilinx/Vitis_HLS/2023.2\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: D:/Xilinx/Vivado/2023.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu7eg-ffvc1156-2-i'
+Command       create_platform done; 2.485 sec.
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.132 sec.
+Execute       ap_part_info -name xczu7eg-ffvc1156-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.703 sec.
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-1464@%s config_export -format=ip_catalog 
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1464@%s config_export -rtl=verilog 
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+Execute     config_export -rtl=verilog 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -default_interface=kernel 
+INFO: [HLS 200-1464] Running solution command: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_latency=64 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+Execute     send_msg_by_id INFO @200-1464@%s config_rtl -register_reset_num=3 
+INFO: [HLS 200-1464] Running solution command: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Command   open_solution done; 2.894 sec.
+Execute   set_part xczu7eg-ffvc1156-2-i 
+INFO: [HLS 200-1510] Running: set_part xczu7eg-ffvc1156-2-i 
+Execute     create_platform xczu7eg-ffvc1156-2-i -board  
+Command     create_platform done; 0.185 sec.
+Execute     source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.118 sec.
+Execute     ap_part_info -name xczu7eg-ffvc1156-2-i -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Command   set_part done; 0.378 sec.
+Execute   create_clock -period 300MHz -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 300MHz -name default 
+Execute   config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+Execute   config_interface -m_axi_alignment_byte_size 64 -m_axi_latency 64 -m_axi_max_widen_bitwidth 512 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_alignment_byte_size 64 -m_axi_latency 64 -m_axi_max_widen_bitwidth 512 
+Execute   config_rtl -register_reset_num 3 
+INFO: [HLS 200-1510] Running: config_rtl -register_reset_num 3 
+Execute   source ./normalRNG.prj/sol/directives.tcl 
+INFO: [HLS 200-1510] Running: source ./normalRNG.prj/sol/directives.tcl
+Execute     set_directive_top -name dut dut 
+INFO: [HLS 200-1510] Running: set_directive_top -name dut dut 
+Execute   csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 193.906 MB.
+Execute       set_directive_top dut -name=dut 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source D:/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/try/try.tcl 
+INFO: [HLS 200-10] Analyzing design file 'dut.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling dut.cpp as C++
+Execute       ap_part_info -name xczu7eg-ffvc1156-2-i -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/clang dut.cpp -foptimization-record-file=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot D:/Xilinx/Vitis_HLS/2023.2/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/all.directive.json -E -ID:/tmp/Vitis_Libraries/quantitative_finance//L1/include -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=3.333 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp {-hls-platform-db-name=D:/Xilinx/Vitis_HLS/2023.2\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_624.000000_DSP_1728.000000_FF_460800.000000_LUT_230400.000000_SLICE_28800.000000_URAM_96.000000 -device-name-info=xczu7eg-ffvc1156-2-i > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.cpp.clang.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.cpp.clang.err.log
+WARNING: [HLS 207-997] '/*' within block comment (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:176:1)
+INFO-FLOW: Done: GCC PP 39 time: 0.5 seconds per iteration
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp {-hls-platform-db-name=D:/Xilinx/Vitis_HLS/2023.2\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_624.000000_DSP_1728.000000_FF_460800.000000_LUT_230400.000000_SLICE_28800.000000_URAM_96.000000 -device-name-info=xczu7eg-ffvc1156-2-i > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/clang.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/clang.err.log
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:72:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:83:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:94:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:105:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:106:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:123:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:134:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:141:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:148:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:155:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:183:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:189:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:203:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:228:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:360:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:363:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:366:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:370:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:373:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:379:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:448:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:452:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:454:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:471:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:473:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:489:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:491:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:493:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:495:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:497:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:499:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:501:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:503:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:505:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:507:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:510:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:516:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:518:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:520:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:522:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:524:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:526:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:529:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:531:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:534:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:536:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:956:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:957:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:967:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:968:9)
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp std=gnu++14 -target fpga  -directive=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/.systemc_flag -fix-errors D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 4.696 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp std=gnu++14 -target fpga  -directive=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/all.directive.json 
+INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/all.directive.json -fix-errors D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 5.579 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 5.6 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.clang-tidy.loop-label.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.clang-tidy.loop-label.err.log
+Execute         source D:/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command       clang_tidy done; 10.453 sec.
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.xilinx-dataflow-lawyer.err.log
+Execute       ap_part_info -name xczu7eg-ffvc1156-2-i -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp -ID:/tmp/Vitis_Libraries/quantitative_finance//L1/include -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=3.333 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.bc {-hls-platform-db-name=D:/Xilinx/Vitis_HLS/2023.2\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_624.000000_DSP_1728.000000_FF_460800.000000_LUT_230400.000000_SLICE_28800.000000_URAM_96.000000 -device-name-info=xczu7eg-ffvc1156-2-i > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.clang.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp.clang.err.log
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1070:31)
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1079:41)
+WARNING: [HLS 207-5292] unused parameter 'data' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1086:34)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1100:22)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1110:22)
+WARNING: [HLS 207-5292] unused parameter 'gaussianR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1110:39)
+WARNING: [HLS 207-5292] unused parameter 'gaussR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1118:25)
+WARNING: [HLS 207-5292] unused parameter 'gaussL' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1118:40)
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1401:30)
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1410:41)
+WARNING: [HLS 207-5292] unused parameter 'data' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1417:34)
+WARNING: [HLS 207-5292] unused parameter 'A' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1426:34)
+WARNING: [HLS 207-5292] unused parameter 'B' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1426:49)
+WARNING: [HLS 207-5292] unused parameter 'C' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1426:64)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1441:22)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1450:22)
+WARNING: [HLS 207-5292] unused parameter 'gaussianR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1450:39)
+WARNING: [HLS 207-5292] unused parameter 'gauss' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:288:18)
+WARNING: [HLS 207-5292] unused parameter 'gauss_next' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:289:18)
+WARNING: [HLS 207-5292] unused parameter 'temp_inv' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:291:18)
+WARNING: [HLS 207-5292] unused parameter 'sigma' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:292:18)
+WARNING: [HLS 207-5292] unused parameter 'y' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:671:110)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 36.095 seconds; current allocated memory: 204.445 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc -args  "D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.g.bc"  
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/llvm-link D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.g.bc -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.1.lower.bc -args D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.1.lower.bc > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.2.m1.bc -args D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.1.lower.bc -only-needed D:/Xilinx/Vitis_HLS/2023.2/win64/lib/libhlsm_39.bc D:/Xilinx/Vitis_HLS/2023.2/win64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/llvm-link D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.1.lower.bc -only-needed D:/Xilinx/Vitis_HLS/2023.2/win64/lib/libhlsm_39.bc D:/Xilinx/Vitis_HLS/2023.2/win64/lib/libhlsmc++_39.bc -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.2.m1.bc > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+INFO-FLOW: 
+Command       run_link_or_opt done; 2.584 sec.
+Execute       run_link_or_opt -opt -out D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.3.fpc.bc -args D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=dut -reflow-float-conversion 
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=dut -reflow-float-conversion -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.3.fpc.bc > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command       run_link_or_opt done; 1.172 sec.
+Execute       run_link_or_opt -out D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.4.m2.bc -args D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.3.fpc.bc -only-needed D:/Xilinx/Vitis_HLS/2023.2/win64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/llvm-link D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.3.fpc.bc -only-needed D:/Xilinx/Vitis_HLS/2023.2/win64/lib/libfloatconversion_39.bc -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.4.m2.bc > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.5.gdce.bc -args D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=dut 
+INFO-FLOW: run_clang exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=dut -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.5.gdce.bc > D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Execute       send_msg_by_id INFO @200-777@%s Vitis 
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+INFO-FLOW: run_clang (background poll_ms 5000) exec: D:/Xilinx/Vitis_HLS/2023.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=dut -mllvm -hls-db-dir -mllvm D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/../../../kernel.xml -mllvm -top-io-mapping-info=D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=true -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=64 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=512 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -enable-fp-thr=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -assume-maxi-align=64 -mllvm -reflow-pipeline-style-llvm-setting=2 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -enable-reflow-vitis-flow-setting=true -mllvm -default-clock-period=3.333 -x ir D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.5.gdce.bc -o D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.lto.bc {-hls-platform-db-name=D:/Xilinx/Vitis_HLS/2023.2\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_624.000000_DSP_1728.000000_FF_460800.000000_LUT_230400.000000_SLICE_28800.000000_URAM_96.000000 -device-name-info=xczu7eg-ffvc1156-2-i 2> D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 15,071 Compile/Link D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 15,071 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,811 Unroll/Inline (step 1) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,811 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 6,262 Unroll/Inline (step 2) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 6,262 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 6,284 Unroll/Inline (step 3) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 6,284 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 6,225 Unroll/Inline (step 4) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 6,225 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 6,214 Array/Struct (step 1) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 6,214 Array/Struct (step 2) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 6,214 Array/Struct (step 3) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 6,214 Array/Struct (step 4) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,051 Array/Struct (step 5) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,051 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,034 Performance (step 1) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,034 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,011 Performance (step 2) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,011 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,360 Performance (step 3) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,360 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,176 Performance (step 4) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,176 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,189 HW Transforms (step 1) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,189 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 7,224 HW Transforms (step 2) D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,224 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::internal::Proposal<double>(double*, double, xf::fintech::MT19937&, double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:102:113)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::internal::ProbEval<double, 10u, 200u>(double (*) [3], double (*) [3], double*, double*, xf::fintech::MT19937&, double*, double*, double (*) [2], double, unsigned int&)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:327:24)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:440:27)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:438:66)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:438:21)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:437:69)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:437:20)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::MT19937(ap_uint<32>)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:416:33)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::MT19937(ap_uint<32>)' into 'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:677:26)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:681:31)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:686:41)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_430_2' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:430:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_455_4' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:455:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_450_3' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:450:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_311_1' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:311:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_335_3' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:335:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_329_2' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:329:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_123_1' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:123:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_101_1' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_430_2' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:430:20) in function 'xf::fintech::internal::ChainExchange<double, 10u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:407:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_455_4' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:455:31) in function 'xf::fintech::internal::ChainExchange<double, 10u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:407:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_450_3' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:450:31) in function 'xf::fintech::internal::ChainExchange<double, 10u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:407:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_311_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:311:20) in function 'xf::fintech::internal::ProbEval<double, 10u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_335_3' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:335:31) in function 'xf::fintech::internal::ProbEval<double, 10u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_329_2' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:329:31) in function 'xf::fintech::internal::ProbEval<double, 10u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_123_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:123:23) in function 'xf::fintech::internal::Likelihood<double, 200u>' completely with a factor of 200 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:121:0)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:696:9)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:697:9)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:698:9)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:699:9)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) in function 'xf::fintech::internal::Proposal<double>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:90:0)
+ERROR: [HLS 214-219] Vitis kernel mode requires that all s_axilite ports must be bundled into one bundle. The following ports ('temp_inv,sigma,sample_output,nSamples,return' and 'y,data', in function 'dut') have different bundle names: 'control' and 'control_r'. Consider removing the bundle names on these ports. (dut.cpp:39:0)
+INFO: [HLS 214-178] Inlining function 'double xf::fintech::internal::Prior<double>(double*)' into 'void xf::fintech::internal::ProbEval<double, 10u, 200u>(double (*) [3], double (*) [3], double*, double*, xf::fintech::MT19937&, double*, double*, double (*) [2], double, unsigned int&)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_470_5> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:470:27 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_680_1> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:680:23 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_685_3> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:685:27 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_699_7> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:699:27 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_694_6> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:694:31 
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_701_8' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_708_9' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:708:31)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_701_8' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35) in function 'xf::fintech::McmcCore<double, 10u, 20000u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:671:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_708_9' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:708:31) in function 'xf::fintech::McmcCore<double, 10u, 20000u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:671:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'chain_in' due to pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:429:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'chain_out' due to pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:429:9)
+INFO: [HLS 214-248] Applying array_partition to 'chain_in': Cyclic partitioning with factor 2 on dimension 1. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:675:8)
+INFO: [HLS 214-248] Applying array_partition to 'chain_out': Cyclic partitioning with factor 2 on dimension 1. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:676:8)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'y' since this interface mode only supports scalar types (dut.cpp:39:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'data' since this interface mode only supports scalar types (dut.cpp:39:0)
+INFO: [HLS 214-115] Multiple burst reads of length 50 and bit width 512 has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:124:17)
+INFO: [HLS 214-115] Multiple burst reads of variable length and bit width 64 in loop 'EXCHANGE_LOOP'(D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5)
+INFO: [HLS 214-115] Multiple burst writes of length 3 and bit width 64 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35)
+Execute       send_msg_by_id ERROR @200-1715@ 
+ERROR: [HLS 200-1715] Encountered problem during source synthesis
+INFO-FLOW: Error in clang_39: 
+INFO-FLOW: Caught error in elaborate: Pre-synthesis failed.
+    while executing
+"AP::ap_link_39 [::AP::get_bc_list  $dbgInfo] $skip_transform $LLVMFlags $dbgInfo"
+    (procedure "AP::compile_dut_files_39" line 58)
+    invoked from within
+"AP::compile_dut_files_39 $dut_files $dbgInfo $skip_cdt $skip_transform"
+    (procedure "AP::compile" line 105)
+    invoked from within
+"AP::compile 1 $skip_cdt $skip_transform"
+    (procedure "ap_internal_elaborate" line 83)
+    invoked from within
+"ap_internal_elaborate "
+Command     elaborate done; error code: 2; 47.838 sec.
+INFO-FLOW: Caught error in csynth_design: Pre-synthesis failed.
+    while executing
+"ap_internal_csynth_design "
+Command   csynth_design done; error code: 2; 47.968 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 47.968 seconds; current allocated memory: 15.797 MB.
+Command ap_source done; error code: 1; 51.313 sec.
+Execute cleanup_all 

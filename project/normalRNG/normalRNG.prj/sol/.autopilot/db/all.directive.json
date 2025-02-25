@@ -1,0 +1,44 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "dut",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "dut"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/zu7/normalRNG/normalRNG.prj/sol/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "dut",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "dut"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/zu7/normalRNG/normalRNG.prj/sol/csynth.tcl",
+    "sourceLine": 18,
+    "success": true
+  }
+]

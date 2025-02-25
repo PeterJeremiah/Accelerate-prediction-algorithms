@@ -1,0 +1,193 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'yangmy' on host 'ymy' (Windows NT_amd64 version 6.2) on Sun Aug 25 13:10:51 +0800 2024
+INFO: [HLS 200-10] In directory 'D:/zu7/normalRNG'
+WARNING: [HLS 200-40] Environment variable 'C_INCLUDE_PATH' is set to D:\mingw-w64\include.
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'D:/zu7/normalRNG/normalRNG.prj/sol/csynth.tcl'
+INFO: [HLS 200-1510] Running: source D:/zu7/normalRNG/normalRNG.prj/sol/csynth.tcl
+INFO: [HLS 200-1510] Running: open_project normalRNG.prj 
+INFO: [HLS 200-10] Opening project 'D:/zu7/normalRNG/normalRNG.prj'.
+INFO: [HLS 200-1510] Running: set_top dut 
+INFO: [HLS 200-1510] Running: add_files dut.cpp -cflags -ID:/tmp/Vitis_Libraries/quantitative_finance//L1/include 
+INFO: [HLS 200-10] Adding design file 'dut.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb tb.cpp -cflags -ID:/tmp/Vitis_Libraries/quantitative_finance//L1/include -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'tb.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution sol -flow_target vitis 
+INFO: [HLS 200-10] Opening solution 'D:/zu7/normalRNG/normalRNG.prj/sol'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+INFO: [HLS 200-1611] Setting target device to 'xczu7eg-ffvc1156-2-i'
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1464] Running solution command: config_interface -default_interface=kernel
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_latency=64
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-1464] Running solution command: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xczu7eg-ffvc1156-2-i 
+INFO: [HLS 200-1510] Running: create_clock -period 300MHz -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_alignment_byte_size 64 -m_axi_latency 64 -m_axi_max_widen_bitwidth 512 
+INFO: [HLS 200-1510] Running: config_rtl -register_reset_num 3 
+INFO: [HLS 200-1510] Running: source ./normalRNG.prj/sol/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name dut dut 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 193.906 MB.
+INFO: [HLS 200-10] Analyzing design file 'dut.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:176:1)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:72:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:83:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:94:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/utils.hpp:105:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:106:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:123:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:134:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:141:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:148:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:155:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:183:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:189:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:203:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:228:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:360:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:363:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:366:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:370:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:373:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:379:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:448:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:452:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:454:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:471:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:473:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:489:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:491:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:493:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:495:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:497:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:499:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:501:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:503:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:505:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:507:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:510:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:516:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:518:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:520:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:522:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:524:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:526:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:529:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:531:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:534:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:536:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:956:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:957:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:967:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:968:9)
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1070:31)
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1079:41)
+WARNING: [HLS 207-5292] unused parameter 'data' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1086:34)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1100:22)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1110:22)
+WARNING: [HLS 207-5292] unused parameter 'gaussianR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1110:39)
+WARNING: [HLS 207-5292] unused parameter 'gaussR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1118:25)
+WARNING: [HLS 207-5292] unused parameter 'gaussL' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1118:40)
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1401:30)
+WARNING: [HLS 207-5292] unused parameter 'seed' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1410:41)
+WARNING: [HLS 207-5292] unused parameter 'data' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1417:34)
+WARNING: [HLS 207-5292] unused parameter 'A' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1426:34)
+WARNING: [HLS 207-5292] unused parameter 'B' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1426:49)
+WARNING: [HLS 207-5292] unused parameter 'C' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1426:64)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1441:22)
+WARNING: [HLS 207-5292] unused parameter 'uniformR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1450:22)
+WARNING: [HLS 207-5292] unused parameter 'gaussianR' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:1450:39)
+WARNING: [HLS 207-5292] unused parameter 'gauss' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:288:18)
+WARNING: [HLS 207-5292] unused parameter 'gauss_next' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:289:18)
+WARNING: [HLS 207-5292] unused parameter 'temp_inv' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:291:18)
+WARNING: [HLS 207-5292] unused parameter 'sigma' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:292:18)
+WARNING: [HLS 207-5292] unused parameter 'y' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:671:110)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 36.095 seconds; current allocated memory: 204.445 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 15,071 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,811 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,262 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,284 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,225 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,214 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,051 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,034 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,011 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,360 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,176 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,189 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7,224 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: D:/zu7/normalRNG/normalRNG.prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::internal::Proposal<double>(double*, double, xf::fintech::MT19937&, double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:102:113)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::internal::ProbEval<double, 10u, 200u>(double (*) [3], double (*) [3], double*, double*, xf::fintech::MT19937&, double*, double*, double (*) [2], double, unsigned int&)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:327:24)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:440:27)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:438:66)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:438:21)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:437:69)
+INFO: [HLS 214-131] Inlining function 'double xf::fintech::internal::TargetDist<double>(double*, double)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:437:20)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::MT19937(ap_uint<32>)' into 'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:416:33)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::MT19937(ap_uint<32>)' into 'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:677:26)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:681:31)
+INFO: [HLS 214-131] Inlining function 'xf::fintech::MT19937::next()' into 'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:686:41)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_430_2' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:430:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_455_4' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:455:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_450_3' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:450:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_311_1' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:311:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_335_3' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:335:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_329_2' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:329:31)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_123_1' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:123:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_101_1' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_430_2' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:430:20) in function 'xf::fintech::internal::ChainExchange<double, 10u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:407:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_455_4' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:455:31) in function 'xf::fintech::internal::ChainExchange<double, 10u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:407:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_450_3' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:450:31) in function 'xf::fintech::internal::ChainExchange<double, 10u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:407:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_311_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:311:20) in function 'xf::fintech::internal::ProbEval<double, 10u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_335_3' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:335:31) in function 'xf::fintech::internal::ProbEval<double, 10u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_329_2' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:329:31) in function 'xf::fintech::internal::ProbEval<double, 10u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_123_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:123:23) in function 'xf::fintech::internal::Likelihood<double, 200u>' completely with a factor of 200 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:121:0)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:696:9)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:697:9)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:698:9)
+WARNING: [HLS 214-327] Dependence pragma in loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) is removed because the loop is unrolled completely (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp:699:9)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_101_1' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23) in function 'xf::fintech::internal::Proposal<double>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:90:0)
+ERROR: [HLS 214-219] Vitis kernel mode requires that all s_axilite ports must be bundled into one bundle. The following ports ('temp_inv,sigma,sample_output,nSamples,return' and 'y,data', in function 'dut') have different bundle names: 'control' and 'control_r'. Consider removing the bundle names on these ports. (dut.cpp:39:0)
+INFO: [HLS 214-178] Inlining function 'double xf::fintech::internal::Prior<double>(double*)' into 'void xf::fintech::internal::ProbEval<double, 10u, 200u>(double (*) [3], double (*) [3], double*, double*, xf::fintech::MT19937&, double*, double*, double (*) [2], double, unsigned int&)' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:295:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_470_5> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:470:27 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_680_1> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:680:23 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_685_3> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:685:27 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_699_7> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:699:27 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_694_6> at D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:694:31 
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_701_8' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_708_9' is marked as complete unroll implied by the pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:708:31)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_701_8' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35) in function 'xf::fintech::McmcCore<double, 10u, 20000u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:671:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_708_9' (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:708:31) in function 'xf::fintech::McmcCore<double, 10u, 20000u, 200u>' completely with a factor of 3 (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:671:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'chain_in' due to pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:429:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'chain_out' due to pipeline pragma (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:429:9)
+INFO: [HLS 214-248] Applying array_partition to 'chain_in': Cyclic partitioning with factor 2 on dimension 1. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:675:8)
+INFO: [HLS 214-248] Applying array_partition to 'chain_out': Cyclic partitioning with factor 2 on dimension 1. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:676:8)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'y' since this interface mode only supports scalar types (dut.cpp:39:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'data' since this interface mode only supports scalar types (dut.cpp:39:0)
+INFO: [HLS 214-115] Multiple burst reads of length 50 and bit width 512 has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:124:17)
+INFO: [HLS 214-115] Multiple burst reads of variable length and bit width 64 in loop 'EXCHANGE_LOOP'(D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5)
+INFO: [HLS 214-115] Multiple burst writes of length 3 and bit width 64 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35)
+ERROR: [HLS 200-1715] Encountered problem during source synthesis
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 47.968 seconds; current allocated memory: 15.797 MB.
+Pre-synthesis failed.
+    while executing
+"source D:/zu7/normalRNG/normalRNG.prj/sol/csynth.tcl"
+    invoked from within
+"hls::main D:/zu7/normalRNG/normalRNG.prj/sol/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 0 seconds. Total elapsed time: 52.023 seconds; peak allocated memory: 209.711 MB.

@@ -1,0 +1,3182 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 102, Column: 113 }
+Function:        _ZN2xf7fintech8internal8ProposalIdEEvPT_S3_RNS0_7MT19937ES4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::fintech::MT19937::next()'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                       Line: 694, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::Proposal<double>(double*, double, xf::fintech::MT19937&, double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 90, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 327, Column: 24 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::fintech::MT19937::next()'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                       Line: 694, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ProbEval<double, 10u, 200u>(double (*) [3], double (*) [3], double*, double*, xf::fintech::MT19937&, double*, double*, double (*) [2], double, unsigned int&)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 295, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 440, Column: 27 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::fintech::MT19937::next()'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                       Line: 694, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 438, Column: 66 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'double xf::fintech::internal::TargetDist<double>(double*, double)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 198, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 438, Column: 21 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'double xf::fintech::internal::TargetDist<double>(double*, double)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 198, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 437, Column: 69 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'double xf::fintech::internal::TargetDist<double>(double*, double)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 198, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 437, Column: 20 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'double xf::fintech::internal::TargetDist<double>(double*, double)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 198, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 416, Column: 33 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::fintech::MT19937::MT19937(ap_uint<32>)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                       Line: 656, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 677, Column: 26 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::fintech::MT19937::MT19937(ap_uint<32>)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                       Line: 656, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 671, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 681, Column: 31 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::fintech::MT19937::next()'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                       Line: 694, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 671, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 686, Column: 41 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::fintech::MT19937::next()'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                       Line: 694, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 671, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 430, Column: 20 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_430_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 455, Column: 31 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_455_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 450, Column: 31 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_450_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 311, Column: 20 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_311_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 335, Column: 31 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_335_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 329, Column: 31 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_329_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 123, Column: 23 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_123_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 101, Column: 23 }
+Function:        _ZN2xf7fintech8internal8ProposalIdEEvPT_S3_RNS0_7MT19937ES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_101_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 407, Column: 0 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_430_2
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:430:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::ChainExchange<double, 10u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 407, Column: 0 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_455_4
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:455:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::ChainExchange<double, 10u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 407, Column: 0 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_450_3
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:450:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::ChainExchange<double, 10u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 295, Column: 0 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_311_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:311:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::ProbEval<double, 10u, 200u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 295, Column: 0 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_335_3
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:335:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::ProbEval<double, 10u, 200u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 295, Column: 0 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_329_2
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:329:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::ProbEval<double, 10u, 200u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 121, Column: 0 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_123_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:123:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::Likelihood<double, 200u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '200'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            DepRemovedByUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                   Line: 696, Column: 9 }
+Function:        _ZN2xf7fintech8internal8ProposalIdEEvPT_S3_RNS0_7MT19937ES4_
+Args:            
+  - String:          'Dependence pragma in loop '''
+  - LoopName:        VITIS_LOOP_101_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23'
+  - String:          ') '
+  - String:          is removed because the loop is unrolled completely
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            DepRemovedByUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                   Line: 697, Column: 9 }
+Function:        _ZN2xf7fintech8internal8ProposalIdEEvPT_S3_RNS0_7MT19937ES4_
+Args:            
+  - String:          'Dependence pragma in loop '''
+  - LoopName:        VITIS_LOOP_101_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23'
+  - String:          ') '
+  - String:          is removed because the loop is unrolled completely
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            DepRemovedByUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                   Line: 698, Column: 9 }
+Function:        _ZN2xf7fintech8internal8ProposalIdEEvPT_S3_RNS0_7MT19937ES4_
+Args:            
+  - String:          'Dependence pragma in loop '''
+  - LoopName:        VITIS_LOOP_101_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23'
+  - String:          ') '
+  - String:          is removed because the loop is unrolled completely
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            DepRemovedByUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/rng.hpp', 
+                   Line: 699, Column: 9 }
+Function:        _ZN2xf7fintech8internal8ProposalIdEEvPT_S3_RNS0_7MT19937ES4_
+Args:            
+  - String:          'Dependence pragma in loop '''
+  - LoopName:        VITIS_LOOP_101_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23'
+  - String:          ') '
+  - String:          is removed because the loop is unrolled completely
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 90, Column: 0 }
+Function:        _ZN2xf7fintech8internal8ProposalIdEEvPT_S3_RNS0_7MT19937ES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_101_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:101:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::internal::Proposal<double>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !HLSUnsupported
+Pass:            reflow-default-interface-builder-new
+Name:            InterfaceVitisSAxiLiteLimitError
+DebugLoc:        { File: dut.cpp, Line: 39, Column: 0 }
+Function:        dut
+Args:            
+  - String:          'Vitis kernel mode requires that all s_axilite ports must be bundled into one bundle. The following ports ('''
+  - Name:            temp_inv,sigma,sample_output,nSamples,return
+  - String:          ''' and '''
+  - Name:            y,data
+  - String:          ''', in function '''
+  - Function:        dut
+    DebugLoc:        { File: dut.cpp, Line: 39, Column: 0 }
+  - String:          ''') have different bundle names: '''
+  - Name:            control
+  - String:          ''' and '''
+  - Name:            control_r
+  - String:          '''. Consider removing the bundle names on these ports.'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 295, Column: 0 }
+Function:        _ZN2xf7fintech8internal8ProbEvalIdLj10ELj200EEEvPA3_T_S5_PS3_S6_RNS0_7MT19937ES6_S6_PA2_S3_S3_Rj
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'double xf::fintech::internal::Prior<double>(double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 139, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::fintech::internal::ProbEval<double, 10u, 200u>(double (*) [3], double (*) [3], double*, double*, xf::fintech::MT19937&, double*, double*, double (*) [2], double, unsigned int&)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 295, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 701, Column: 35 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '3'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgepseq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_701_8
+  - String:          ' '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35'
+  - String:          ' '
+  - Function:        'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 671, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 702, Column: 37 }
+  - OrigDirection:   write
+  - OrigID:          for.inc74.store.6
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzePattern
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 701, Column: 35 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          Could not analyze pattern
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 701, Column: 35 }
+  - OrigDirection:   write
+  - OrigID:          scevgepseq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_699_7
+  - String:          ' '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:699:27'
+  - String:          ' '
+  - Function:        'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 671, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 427, Column: 5 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgepseq
+  - ArrayName:       temp_inv
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        EXCHANGE_LOOP
+  - String:          ' '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5'
+  - String:          ' '
+  - Function:        'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 437, Column: 50 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_430_2.load.37
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 437, Column: 103 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_430_2.load.52
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 124, Column: 17 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '400'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        data1seq
+  - ArrayName:       data
+  - String:          ' '
+  - BundleName:      gmem1
+  - String:          ' '
+  - Function:        'double xf::fintech::internal::Likelihood<double, 200u>(double (*) [2], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 121, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.416
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.419
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.431
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.434
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.446
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.449
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.461
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.464
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.476
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.479
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.491
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.494
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.506
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.509
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.521
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.524
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.536
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.539
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.551
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.554
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.566
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.569
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.581
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.584
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.596
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.599
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.611
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.614
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.626
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.629
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.641
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.644
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.656
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.659
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.671
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.674
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.686
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.689
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.701
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.704
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.716
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.719
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.731
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.734
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.746
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.749
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.761
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.764
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.776
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.779
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.791
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.794
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.806
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.809
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.821
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.824
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.836
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.839
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.851
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.854
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.866
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.869
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.881
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.884
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.896
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.899
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.911
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.914
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.926
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.929
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.941
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.944
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.956
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.959
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.971
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.974
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.986
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.989
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1001
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1004
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1016
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1019
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1031
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1034
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1046
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1049
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1061
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1064
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1076
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1079
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1091
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1094
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1106
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1109
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1121
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1124
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1136
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1139
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1151
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1154
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1166
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1169
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1181
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1184
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1196
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1199
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1211
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1214
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1226
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1229
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1241
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1244
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1256
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1259
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1271
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1274
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1286
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1289
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1301
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1304
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1316
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1319
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1331
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1334
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1346
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1349
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1361
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1364
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1376
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1379
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1391
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1394
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1406
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1409
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1421
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1424
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1436
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1439
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1451
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1454
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1466
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1469
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1481
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1484
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1496
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1499
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1511
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1514
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1526
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1529
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1541
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1544
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1556
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1559
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1571
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1574
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1586
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1589
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1601
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1604
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1616
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1619
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1631
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1634
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1646
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1649
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1661
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1664
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1676
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1679
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1691
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1694
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1706
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1709
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1721
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1724
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1736
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1739
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1751
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1754
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1766
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1769
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1781
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1784
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1796
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1799
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1811
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1814
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1826
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1829
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1841
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1844
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1856
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1859
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1871
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1874
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1886
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1889
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1901
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1904
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1916
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1919
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1931
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1934
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1946
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1949
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1961
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1964
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1976
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1979
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1991
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.1994
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2006
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2009
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2021
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2024
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2036
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2039
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2051
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2054
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2066
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2069
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2081
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2084
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2096
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2099
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2111
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2114
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2126
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2129
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2141
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2144
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2156
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2159
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2171
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2174
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2186
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2189
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2201
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2204
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2216
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2219
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2231
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2234
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2246
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2249
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2261
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2264
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2276
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2279
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2291
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2294
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2306
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2309
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2321
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2324
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2336
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2339
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2351
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2354
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2366
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2369
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2381
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2384
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2396
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2399
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2411
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2414
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2426
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2429
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2441
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2444
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2456
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2459
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2471
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2474
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2486
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2489
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2501
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2504
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2516
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2519
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2531
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2534
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2546
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2549
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2561
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2564
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2576
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2579
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2591
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2594
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2606
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2609
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2621
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2624
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2636
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2639
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2651
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2654
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2666
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2669
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2681
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2684
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2696
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2699
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2711
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2714
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2726
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2729
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2741
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2744
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2756
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2759
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2771
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2774
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2786
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2789
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2801
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2804
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2816
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2819
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2831
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2834
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2846
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2849
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2861
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2864
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2876
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2879
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2891
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2894
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2906
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2909
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2921
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2924
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2936
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2939
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2951
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2954
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2966
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2969
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2981
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2984
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2996
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.2999
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3011
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3014
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3026
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3029
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3041
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3044
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3056
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3059
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3071
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3074
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3086
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3089
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3101
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3104
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3116
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3119
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3131
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3134
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3146
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3149
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3161
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3164
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3176
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3179
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3191
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3194
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3206
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3209
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3221
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3224
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3236
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3239
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3251
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3254
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3266
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3269
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3281
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3284
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3296
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3299
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3311
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3314
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3326
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3329
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3341
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3344
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3356
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3359
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3371
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3374
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3386
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3389
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3401
+  - OrigAccess:      load
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 125, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.3404
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 701, Column: 35 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            double
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 701, Column: 35 }
+  - OrigDirection:   write
+  - OrigID:          scevgepseq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_701_8
+  - String:          ' '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35'
+  - String:          ' '
+  - Function:        'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2])'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 671, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 427, Column: 5 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            double
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 427, Column: 5 }
+  - OrigDirection:   read
+  - OrigID:          scevgepseq
+  - ArrayName:       temp_inv
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        EXCHANGE_LOOP
+  - String:          ' '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5'
+  - String:          ' '
+  - Function:        'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 124, Column: 17 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - OrigLength:      '400'
+  - String:          ' x '
+  - OrigWords:       '64'
+  - String:          'bit words has been widened by '
+  - Factor:          '8'
+  - String:          ': '
+  - Length:          '50'
+  - String:          ' x '
+  - Words:           '512'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          data1seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq
+  - ArrayName:       data
+  - String:          ' '
+  - BundleName:      gmem1
+  - String:          ' '
+  - Function:        'double xf::fintech::internal::Likelihood<double, 200u>(double (*) [2], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 121, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualThreshold
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 124, Column: 17 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i512
+  - String:          ' size is greater than or equal to the max_widen_bitwidth threshold of '
+  - Threshold:       '512'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          wseq
+  - ArrayName:       data
+  - String:          ' '
+  - BundleName:      gmem1
+  - String:          ' '
+  - Function:        'double xf::fintech::internal::Likelihood<double, 200u>(double (*) [2], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 121, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualThreshold
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 124, Column: 17 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i512
+  - String:          ' size is greater than or equal to the max_widen_bitwidth threshold of '
+  - Threshold:       '512'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 124, Column: 17 }
+  - OrigDirection:   read
+  - OrigID:          wseq
+  - ArrayName:       data
+  - String:          ' '
+  - BundleName:      gmem1
+  - String:          ' '
+  - Function:        'double xf::fintech::internal::Likelihood<double, 200u>(double (*) [2], double*)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 121, Column: 0 }
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_470_5
+  - String:          '> at '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:470:27'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_680_1
+  - String:          '> at '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:680:23'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_685_3
+  - String:          '> at '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:685:27'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_699_7
+  - String:          '> at '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:699:27'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_694_6
+  - String:          '> at '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:694:31'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 701, Column: 35 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_701_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 708, Column: 31 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_708_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 671, Column: 0 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_701_8
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:701:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::McmcCore<double, 10u, 20000u, 200u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 671, Column: 0 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_708_9
+  - String:          ''' ('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:708:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::fintech::McmcCore<double, 10u, 20000u, 200u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 675, Column: 8 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=2 variable=chain_in'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  'xf::fintech::McmcCore<double, 10u, 20000u, 200u>'
+  - String:          ' '
+  - varLoc:          'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:675:8'
+  - String:          ' '
+  - PragmaSrcLoc:    'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:429:9'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 429, Column: 9 }
+  - VarName:         chain_in
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 429, Column: 9 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '2'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            chain_in
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 676, Column: 8 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=2 variable=chain_out'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  'xf::fintech::McmcCore<double, 10u, 20000u, 200u>'
+  - String:          ' '
+  - varLoc:          'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:676:8'
+  - String:          ' '
+  - PragmaSrcLoc:    'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:429:9'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 429, Column: 9 }
+  - VarName:         chain_out
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 429, Column: 9 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '2'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            chain_out
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 675, Column: 8 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          chain_in
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 676, Column: 8 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          chain_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: dut.cpp, Line: 39, Column: 0 }
+Function:        dut
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            'y'
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: dut.cpp, Line: 39, Column: 0 }
+Function:        dut
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            data
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 124, Column: 17 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '50'
+  - String:          ' and bit width '
+  - Width:           '512'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem1
+  - String:          ' '
+  - Function:        'double xf::fintech::internal::Likelihood<double, 200u>(double (*) [2], double*) (.1)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 121, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 124, Column: 17 }
+Function:        _ZN2xf7fintech8internal10LikelihoodIdLj200EEET_PA2_S3_PS3_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '50'
+  - String:          ' and bit width '
+  - Width:           '512'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem1
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 427, Column: 5 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        EXCHANGE_LOOP
+  - String:          ' '
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5'
+  - String:          ' '
+  - Function:        'void xf::fintech::internal::ChainExchange<double, 10u>(double (*) [3], double (*) [3], double*) (.1)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 407, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 427, Column: 5 }
+Function:        _ZN2xf7fintech8internal13ChainExchangeIdLj10EEEvPA3_T_S5_PS3_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '64'
+  - String:          ' in loop '''
+  - LoopName:        EXCHANGE_LOOP
+  - String:          '''('
+  - LoopLoc:         'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp:427:5'
+  - String:          ')'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 701, Column: 35 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '3'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'void xf::fintech::McmcCore<double, 10u, 20000u, 200u>(double*, double*, double (*) [3], unsigned int, double (*) [20000u], double (*) [2]) (.1)'
+    DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                       Line: 671, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'D:/tmp/Vitis_Libraries/quantitative_finance//L1/include\xf_fintech/pop_mcmc.hpp', 
+                   Line: 701, Column: 35 }
+Function:        _ZN2xf7fintech8McmcCoreIdLj10ELj20000ELj200EEEvPT_S3_PA3_S2_jPAT1__S2_PA2_S2_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '3'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

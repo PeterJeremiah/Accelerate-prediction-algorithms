@@ -1,0 +1,106 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "dut.cpp",
+    "fileloc": 34,
+    "instructions": 24,
+    "name": "dut",
+    "total_instructions": 7224
+  },
+  "1": {
+    "basicblocks": 48,
+    "calls": "5 2 3",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 671,
+    "instructions": 416,
+    "loads": {
+      "L": 24
+    },
+    "name": "McmcCore<double, 10, 20000, 200>",
+    "stores": {
+      "L": 25
+    },
+    "total_instructions": 7200
+  },
+  "2": {
+    "basicblocks": 25,
+    "calls": "7 4 4",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 286,
+    "instructions": 228,
+    "loads": {
+      "L": 19
+    },
+    "name": "ProbEval<double, 10, 200>",
+    "stores": {
+      "L": 22
+    },
+    "total_instructions": 6394
+  },
+  "3": {
+    "basicblocks": 31,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 407,
+    "instructions": 333,
+    "loads": {
+      "G": 10,
+      "L": 14
+    },
+    "name": "ChainExchange<double, 10>",
+    "stores": {
+      "G": 10,
+      "L": 25
+    },
+    "total_instructions": 333
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 121,
+    "instructions": 2610,
+    "name": "Likelihood<double, 200>",
+    "total_instructions": 2610
+  },
+  "5": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 602,
+    "instructions": 57,
+    "loads": {
+      "L": 4
+    },
+    "name": "seedInitialization",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 57
+  },
+  "6": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 409,
+    "instructions": 184,
+    "name": "inverseCumulativeNormalAcklam<double>",
+    "total_instructions": 184
+  },
+  "7": {
+    "basicblocks": 37,
+    "calls": "6 6 6",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 90,
+    "instructions": 394,
+    "loads": {
+      "L": 17
+    },
+    "name": "Proposal<double>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 946
+  }
+}

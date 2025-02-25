@@ -1,0 +1,106 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "5",
+    "file": "dut.cpp",
+    "fileloc": 34,
+    "instructions": 23,
+    "name": "dut",
+    "total_instructions": 7176
+  },
+  "1": {
+    "basicblocks": 37,
+    "calls": "3 3 3",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 90,
+    "instructions": 394,
+    "loads": {
+      "L": 17
+    },
+    "name": "Proposal<double>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 946
+  },
+  "2": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 602,
+    "instructions": 52,
+    "loads": {
+      "L": 4
+    },
+    "name": "seedInitialization",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 52
+  },
+  "3": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 409,
+    "instructions": 184,
+    "name": "inverseCumulativeNormalAcklam<double>",
+    "total_instructions": 184
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 121,
+    "instructions": 2610,
+    "name": "Likelihood<double, 200>",
+    "total_instructions": 2610
+  },
+  "5": {
+    "basicblocks": 42,
+    "calls": "2 7 6",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 671,
+    "instructions": 391,
+    "loads": {
+      "L": 24
+    },
+    "name": "McmcCore<double, 10, 20000, 200>",
+    "stores": {
+      "L": 25
+    },
+    "total_instructions": 7153
+  },
+  "6": {
+    "basicblocks": 28,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 407,
+    "instructions": 321,
+    "loads": {
+      "G": 10,
+      "L": 14
+    },
+    "name": "ChainExchange<double, 10>",
+    "stores": {
+      "G": 10,
+      "L": 25
+    },
+    "total_instructions": 321
+  },
+  "7": {
+    "basicblocks": 24,
+    "calls": "1 4 4",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 286,
+    "instructions": 223,
+    "loads": {
+      "L": 19
+    },
+    "name": "ProbEval<double, 10, 200>",
+    "stores": {
+      "L": 22
+    },
+    "total_instructions": 6389
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "6",
+    "file": "dut.cpp",
+    "fileloc": 34,
+    "instructions": 23,
+    "name": "dut",
+    "total_instructions": 7034
+  },
+  "1": {
+    "basicblocks": 37,
+    "calls": "4 4 4",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 90,
+    "instructions": 394,
+    "loads": {
+      "L": 17
+    },
+    "name": "Proposal<double>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 946
+  },
+  "2": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 407,
+    "instructions": 260,
+    "loads": {
+      "G": 10,
+      "L": 7
+    },
+    "name": "ChainExchange<double, 10>",
+    "stores": {
+      "G": 10,
+      "L": 13
+    },
+    "total_instructions": 260
+  },
+  "3": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 602,
+    "instructions": 52,
+    "loads": {
+      "L": 4
+    },
+    "name": "seedInitialization",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 52
+  },
+  "4": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 409,
+    "instructions": 184,
+    "name": "inverseCumulativeNormalAcklam<double>",
+    "total_instructions": 184
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 121,
+    "instructions": 2610,
+    "name": "Likelihood<double, 200>",
+    "total_instructions": 2610
+  },
+  "6": {
+    "basicblocks": 38,
+    "calls": "3 7 2",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 671,
+    "instructions": 318,
+    "loads": {
+      "L": 16
+    },
+    "name": "McmcCore<double, 10, 20000, 200>",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 7011
+  },
+  "7": {
+    "basicblocks": 18,
+    "calls": "1 5 5",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 286,
+    "instructions": 215,
+    "loads": {
+      "L": 25
+    },
+    "name": "ProbEval<double, 10, 200>",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 6381
+  }
+}

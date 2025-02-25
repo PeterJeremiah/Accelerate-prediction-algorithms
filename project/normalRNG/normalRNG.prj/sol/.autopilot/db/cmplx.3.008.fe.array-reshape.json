@@ -1,0 +1,109 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "5",
+    "file": "dut.cpp",
+    "fileloc": 34,
+    "instructions": 23,
+    "name": "dut",
+    "total_instructions": 6214
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 121,
+    "instructions": 2213,
+    "loads": {
+      "L": 403
+    },
+    "name": "Likelihood<double, 200>",
+    "total_instructions": 2213
+  },
+  "2": {
+    "basicblocks": 22,
+    "calls": "",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 407,
+    "instructions": 249,
+    "loads": {
+      "G": 10,
+      "L": 9
+    },
+    "name": "ChainExchange<double, 10>",
+    "stores": {
+      "G": 10,
+      "L": 13
+    },
+    "total_instructions": 249
+  },
+  "3": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 602,
+    "instructions": 52,
+    "loads": {
+      "L": 4
+    },
+    "name": "seedInitialization",
+    "stores": {
+      "L": 11
+    },
+    "total_instructions": 52
+  },
+  "4": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "rng.hpp",
+    "fileloc": 409,
+    "instructions": 184,
+    "name": "inverseCumulativeNormalAcklam<double>",
+    "total_instructions": 184
+  },
+  "5": {
+    "basicblocks": 37,
+    "calls": "3 6 2",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 671,
+    "instructions": 315,
+    "loads": {
+      "L": 16
+    },
+    "name": "McmcCore<double, 10, 20000, 200>",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 6191
+  },
+  "6": {
+    "basicblocks": 18,
+    "calls": "7 1 1",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 286,
+    "instructions": 197,
+    "loads": {
+      "L": 16
+    },
+    "name": "ProbEval<double, 10, 200>",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 5575
+  },
+  "7": {
+    "basicblocks": 37,
+    "calls": "4 4 4",
+    "file": "pop_mcmc.hpp",
+    "fileloc": 90,
+    "instructions": 400,
+    "loads": {
+      "L": 20
+    },
+    "name": "Proposal<double>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 952
+  }
+}

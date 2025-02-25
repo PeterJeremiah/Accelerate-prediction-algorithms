@@ -1,0 +1,1851 @@
+---
+MainSourceFile:  'D:/zu7/normalRNG/normalRNG.prj/sol/.autopilot/db/dut.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          55865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          283189
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          283653
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          284118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          567004
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      91
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      92
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      93
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      94
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      125
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      126
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      127
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      128
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      129
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      130
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      131
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      132
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      133
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      134
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      184
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      185
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      186
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      213
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      214
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      215
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      216
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      217
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      218
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      254
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      255
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_1:  '
+    FileOffset:      61
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1145298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1146112
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_1:  '
+    FileOffset:      289
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1148759
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_449_1:  '
+    FileOffset:      449
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1151482
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_449_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_1:  '
+    FileOffset:      629
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1154643
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_633_2:  '
+    FileOffset:      633
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1154724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_633_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1157033
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_840_1:  '
+    FileOffset:      840
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1158527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_840_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_859_2:  '
+    FileOffset:      859
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1158757
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_859_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1173_1:  '
+    FileOffset:      1173
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1164939
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1173_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1256_1:  '
+    FileOffset:      1256
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1166542
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1174390
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_2:  '
+    FileOffset:      74
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1174540
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1174637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_4:  '
+    FileOffset:      145
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1176497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_5:  '
+    FileOffset:      151
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1176647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_6:  '
+    FileOffset:      155
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1176744
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_7:  '
+    FileOffset:      170
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1177125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_8:  '
+    FileOffset:      178
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1177356
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_9:  '
+    FileOffset:      243
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1180803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_10:  '
+    FileOffset:      249
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1180955
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_11:  '
+    FileOffset:      253
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1181055
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_12:  '
+    FileOffset:      268
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1181437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_13:  '
+    FileOffset:      276
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1181675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_14:  '
+    FileOffset:      505
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1197230
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_15:  '
+    FileOffset:      511
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1197382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_515_16:  '
+    FileOffset:      515
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1197481
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_515_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_525_17:  '
+    FileOffset:      525
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1197658
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_525_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_18:  '
+    FileOffset:      529
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1197756
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_19:  '
+    FileOffset:      539
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1198041
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_547_20:  '
+    FileOffset:      547
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1198296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_547_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_908_21:  '
+    FileOffset:      908
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1230535
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_908_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_22:  '
+    FileOffset:      914
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1230687
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_918_23:  '
+    FileOffset:      918
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1230787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_918_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1034_1:  '
+    FileOffset:      1034
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1233463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1040_2:  '
+    FileOffset:      1040
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1233613
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1040_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1044_3:  '
+    FileOffset:      1044
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1233711
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1044_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_4:  '
+    FileOffset:      1131
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1237181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_5:  '
+    FileOffset:      1137
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1237332
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1141_6:  '
+    FileOffset:      1141
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1237431
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1237911
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1167_8:  '
+    FileOffset:      1167
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1238153
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1167_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1283_9:  '
+    FileOffset:      1283
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1243725
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1283_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_10:  '
+    FileOffset:      1289
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1243877
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1293_11:  '
+    FileOffset:      1293
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1243976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1293_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_12:  '
+    FileOffset:      1313
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1244485
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1320_13:  '
+    FileOffset:      1320
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1244734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1320_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1582_14:  '
+    FileOffset:      1582
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1262091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1582_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_15:  '
+    FileOffset:      1588
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1262243
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1592_16:  '
+    FileOffset:      1592
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1262343
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1592_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1616_17:  '
+    FileOffset:      1616
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1262817
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1616_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1623_18:  '
+    FileOffset:      1623
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1263084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1623_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_19:  '
+    FileOffset:      2053
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1301655
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2059_20:  '
+    FileOffset:      2059
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1301807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2059_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2063_21:  '
+    FileOffset:      2063
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1301907
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2063_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2193_1:  '
+    FileOffset:      2193
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1304527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_2:  '
+    FileOffset:      2200
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1304690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2204_3:  '
+    FileOffset:      2204
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1304782
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2204_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2251_4:  '
+    FileOffset:      2251
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1306391
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2258_5:  '
+    FileOffset:      2258
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1306553
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2262_6:  '
+    FileOffset:      2262
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1306645
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2262_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2280_7:  '
+    FileOffset:      2280
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1307018
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2280_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_8:  '
+    FileOffset:      2335
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1309484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2342_9:  '
+    FileOffset:      2342
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1309651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2342_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2346_10:  '
+    FileOffset:      2346
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1309744
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2346_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2364_11:  '
+    FileOffset:      2364
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1310125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2364_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2453_12:  '
+    FileOffset:      2453
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1315566
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2453_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2460_13:  '
+    FileOffset:      2460
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1315734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2460_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2464_14:  '
+    FileOffset:      2464
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1315828
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2464_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2474_15:  '
+    FileOffset:      2474
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1315999
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2474_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2478_16:  '
+    FileOffset:      2478
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1316090
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2478_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2489_17:  '
+    FileOffset:      2489
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1316372
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2489_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2497_18:  '
+    FileOffset:      2497
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1316559
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2497_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2822_19:  '
+    FileOffset:      2822
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1351029
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2822_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2829_20:  '
+    FileOffset:      2829
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1351197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2829_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2833_21:  '
+    FileOffset:      2833
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1351291
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2833_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2921_1:  '
+    FileOffset:      2921
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1353093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2928_2:  '
+    FileOffset:      2928
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1353201
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2928_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2932_3:  '
+    FileOffset:      2932
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1353272
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2932_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2947_4:  '
+    FileOffset:      2947
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1353560
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2947_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2979_5:  '
+    FileOffset:      2979
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1354774
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2979_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2986_6:  '
+    FileOffset:      2986
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1354885
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2986_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2990_7:  '
+    FileOffset:      2990
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1354958
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2990_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3005_8:  '
+    FileOffset:      3005
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1355253
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3005_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_9:  '
+    FileOffset:      3055
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1358586
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3062_10:  '
+    FileOffset:      3062
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1358697
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3062_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3066_11:  '
+    FileOffset:      3066
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1358770
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3066_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3081_12:  '
+    FileOffset:      3081
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1359066
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3081_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_13:  '
+    FileOffset:      3218
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1378378
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_14:  '
+    FileOffset:      3225
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1378492
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_15:  '
+    FileOffset:      3229
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1378567
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3244_16:  '
+    FileOffset:      3244
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1378854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3244_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3404_17:  '
+    FileOffset:      3404
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1404464
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3404_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3411_18:  '
+    FileOffset:      3411
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1404578
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3411_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3415_19:  '
+    FileOffset:      3415
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1404655
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3415_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1438723
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_1:  '
+    FileOffset:      921
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1447112
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_1:  '
+    FileOffset:      1345
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1466085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1480941
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1481462
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1497376
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1498526
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_3:  '
+    FileOffset:      123
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1498835
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_4:  '
+    FileOffset:      153
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1499345
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_281_1:  '
+    FileOffset:      281
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1501259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_281_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1501624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_3:  '
+    FileOffset:      315
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1501932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_433_1:  '
+    FileOffset:      433
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1503760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_433_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_447_2:  '
+    FileOffset:      447
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1504085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_447_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_1:  '
+    FileOffset:      33
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1506738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_1:  '
+    FileOffset:      183
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1509630
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_1:  '
+    FileOffset:      248
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1510917
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1521816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1521991
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1522152
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1522314
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1522488
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1522663
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1522824
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1522986
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_26_1:  '
+    FileOffset:      26
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_mad_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1593770
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_26_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1595514
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1600021
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_2:  '
+    FileOffset:      81
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1600752
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_3:  '
+    FileOffset:      169
+    FilePath:        'D:\Xilinx\Vitis_HLS\2023.2\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1602437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      72
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\utils.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      83
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\utils.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      94
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\utils.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FExp_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      105
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\utils.hpp'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_1:  '
+    FileOffset:      78
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1658841
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_86_2:  '
+    FileOffset:      86
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1659004
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_86_2: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      106
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      123
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_129_3:  '
+    FileOffset:      129
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1659993
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_129_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      134
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      141
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      148
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      155
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      183
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FMul_fulldsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      203
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      228
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      360
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      363
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      366
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      370
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      373
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: FAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      379
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      448
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DLog_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      452
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      454
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      471
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      473
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      489
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      491
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      493
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      495
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      497
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      499
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      501
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      503
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      505
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      507
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      510
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      516
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      518
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      520
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      522
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      524
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      526
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      529
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      531
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DMul_meddsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      534
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: DAddSub_nodsp pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      536
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_672_1:  '
+    FileOffset:      672
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1672252
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_672_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      956
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      957
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      967
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: RAM_T2P_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      968
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_979_1:  '
+    FileOffset:      979
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1679709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_979_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1660_1:  '
+    FileOffset:      1660
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1689695
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1660_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1661_2:  '
+    FileOffset:      1661
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1689759
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1661_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1696_1:  '
+    FileOffset:      1696
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1690694
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1721_2:  '
+    FileOffset:      1721
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1691408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1721_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1732_3:  '
+    FileOffset:      1732
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1691690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1732_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1741_4:  '
+    FileOffset:      1741
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1691904
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1741_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1753_5:  '
+    FileOffset:      1753
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1692241
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1753_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1805_1:  '
+    FileOffset:      1805
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1693481
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1805_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1806_2:  '
+    FileOffset:      1806
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\rng.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          1693537
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1806_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_101_1:  '
+    FileOffset:      101
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2497988
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_101_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2498375
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_311_1:  '
+    FileOffset:      311
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2500120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_311_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_2:  '
+    FileOffset:      329
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2500751
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_335_3:  '
+    FileOffset:      335
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2500895
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_335_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_1:  '
+    FileOffset:      420
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2501450
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_430_2:  '
+    FileOffset:      430
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2501711
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_430_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_450_3:  '
+    FileOffset:      450
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2502301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_450_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_455_4:  '
+    FileOffset:      455
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2502486
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_455_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_470_5:  '
+    FileOffset:      470
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2502761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_470_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_680_1:  '
+    FileOffset:      680
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2503484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_680_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_684_2:  '
+    FileOffset:      684
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2503563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_684_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_685_3:  '
+    FileOffset:      685
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2503607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_685_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_691_4:  '
+    FileOffset:      691
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2503763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_691_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_693_5:  '
+    FileOffset:      693
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2503949
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_693_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_6:  '
+    FileOffset:      694
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2503997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_699_7:  '
+    FileOffset:      699
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2504186
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_699_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_701_8:  '
+    FileOffset:      701
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2504264
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_701_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_708_9:  '
+    FileOffset:      708
+    FilePath:        'D:\tmp\Vitis_Libraries\quantitative_finance\L1\include\xf_fintech\pop_mcmc.hpp'
+    Replacements:    
+      - FilePath:        'D:\zu7\normalRNG\normalRNG.prj\sol\.autopilot\db\dut.pp.0.cpp'
+        Offset:          2504419
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_708_9: '
+...
